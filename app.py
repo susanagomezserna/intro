@@ -15,3 +15,18 @@ st.write('El texto escrito es:', texto)
 
 st.subheader("Ahora usemos 2 columnas")
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+  st.subheader("Esta es la primera columna")
+  st.write("Mi nombre es Susana")
+  respsi = st.checkbox('Sí')
+  respno = st.checkbox('No')
+  if respsi:
+    st.write('Correcto!')
+  if respno:
+    st.write('Incorrecto :(')
+
+  
+      
+    
