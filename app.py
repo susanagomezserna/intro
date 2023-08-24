@@ -27,6 +27,21 @@ with col1:
   if respno:
     st.write('Incorrecto :(')
 
+with col2:
+  st.subheader("Esta es la segunda columna")
+  nombre = st.radio("Como se llama mi perro?", ('Tequila','Ginebra','Jager','Rafa'))
+  if nombre == 'Tequila' & 'Ginebra' & 'Rafa':
+    st.write("Incorrecto :(")
+  if nombre == 'Jager':
+    st.write("Correcto!")
+    
+with col3:
+  st.subheader("Esta es la tercera columna")
+  gusta = st.slider('Que tanto te gusta Jager?', Poquito, Mucho, Normal)
+  st.write("Te gusta:", gusta) 
+  
+  
+
 
   
 
