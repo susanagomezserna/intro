@@ -31,13 +31,13 @@ with col2:
   st.subheader("Esta es la segunda columna")
   modo = st.radio("Cómo se llama mi perro?",('Tequila','Ginebra','Jager','Rafa')
   if modo == 'Tequila'
-    st.write('Ese no es el nombre!')
+    st.write("Ese no es el nombre!")
   if modo == 'Ginebra'
-    st.write('Ese no es el nombre!')
+    st.write("Ese no es el nombre!")
   if modo == 'Jager'
-    st.write('Ese sí es el nombre!')
+    st.write("Ese sí es el nombre!")
   if modo == 'Rafa'
-    st.write('Ese no es el nombre!')
+    st.write("Ese no es el nombre!")
 
 with col3:
   st.subheader("Esta es la tercera columna")
