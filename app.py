@@ -35,7 +35,7 @@ with col2:
   if modo == 'Ginebra'
     st.write('Ese no es el nombre!')
   if modo == 'Jager'
-    st.write('Ese sí es el nombre! :)')
+    st.write('Ese sí es el nombre!')
   if modo == 'Rafa'
     st.write('Ese no es el nombre!')
 
