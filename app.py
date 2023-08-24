@@ -33,8 +33,8 @@ with col2:
 
 with col3:
   st.subheader("Esta es la tercera columna")
-  slider = st.slider('Que tanto te gusta mi peroro?', Poquito, Mucho, Normal)
-  st.write("Me gusta: ", slider, '.')
+  slider = st.slider('Que tanto te gusta mi perro?', Poquito, Mucho, Normal)
+  
 
   
       
