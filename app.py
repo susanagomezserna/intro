@@ -30,7 +30,7 @@ with col1:
 with col2:
   st.subheader("Esta es la segunda columna")
   nombre = st.radio("Como se llama mi perro?", ('Tequila','Ginebra','Jager','Rafa'))
-  if nombre == 'Tequila' & 'Ginebra' & 'Rafa':
+  if nombre == 'Tequila' && 'Ginebra' && 'Rafa':
     st.write("Incorrecto :(")
   if nombre == 'Jager':
     st.write("Correcto!")
