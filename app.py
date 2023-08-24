@@ -37,8 +37,8 @@ with col2:
     
 with col3:
   st.subheader("Esta es la tercera columna")
-  gusta = st.slider('Que tanto te gusta Jager?', "Poquito","Mucho","Normal")
-  st.write("Te gusta:", gusta) 
+  gusta = st.slider('Que tanto te gusta Jager?', 0,100,50)
+  st.write("Te gusta:", gusta, "%") 
   
   
 
