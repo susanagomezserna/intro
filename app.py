@@ -39,6 +39,10 @@ with col3:
   st.subheader("Esta es la tercera columna")
   gusta = st.slider('Que tanto te gusta Jager?', 0,100,50)
   st.write("Te gusta:", gusta, "%") 
+  if gusta >= 50:
+    st.write("Eres lind@")
+  else:
+    st.write("Eres fe@")
   
   
 
