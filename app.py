@@ -27,13 +27,7 @@ with col1:
   if respno:
     st.write('Incorrecto :(')
 
-with col2:
-  st.subheader("Esta es la segunda columna")
-  modo = st.radio("Cómo se llama mi perro?",('Tequila','Ginebra','Jager','Rafa')
 
-with col3:
-  st.subheader("Esta es la tercera columna")
-  slider = st.slider('Que tanto te gusta mi perro?', Poquito, Mucho, Normal)
   
 
   
